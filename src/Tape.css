@@ -1,0 +1,40 @@
+.tape {
+  position: absolute;
+  width: 50px;
+  height: 15px;
+  background: repeating-linear-gradient(
+    45deg,
+    #e3e5f1,
+    #e3e5f1 5px,
+    #c5c7da 5px,
+    #c5c7da 10px
+  );
+  opacity: 0.9;
+  border-radius: 5px;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.tape-top-left {
+  top: -5px;
+  left: -20px;
+  transform: rotate(-45deg);
+}
+
+.tape-top-right {
+  top: -5px;
+  right: -20px;
+  transform: rotate(45deg);
+}
+
+.tape-bottom-left {
+  bottom: -5px;
+  left: -20px;
+  transform: rotate(45deg);
+}
+
+.tape-bottom-right {
+  bottom: -5px;
+  right: -20px;
+  transform: rotate(-45deg);
+}
